@@ -91,7 +91,7 @@ public class SumarView extends javax.swing.JFrame {
     String repo = "Suma: " + suma;
     JOptionPane.showMessageDialog(rootPane, repo);
   }//GEN-LAST:event_btnProcesarActionPerformed
-
+ 
   /**
    * @param args the command line arguments
    */
