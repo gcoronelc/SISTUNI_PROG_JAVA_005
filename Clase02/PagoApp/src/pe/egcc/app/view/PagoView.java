@@ -138,7 +138,7 @@ public class PagoView extends javax.swing.JFrame {
     PagoDto dto = new PagoDto();
     dto.setHorasDia(Integer.parseInt(txtHorasDia.getText()));
     dto.setDias(Integer.parseInt(txtDias.getText()));
-    dto.setPagoHora(Integer.parseInt(txtPagoHora.getText()));
+    dto.setPagoHora(Double.parseDouble(txtPagoHora.getText()));
     // Proceso
     PagoService service = new PagoService();
     service.procesar(dto);
